@@ -1,0 +1,38 @@
+# C++ / Qt / CMake GitIgnore
+build/
+build_test/
+.qtcreator/
+*.user
+*.user.*
+CMakeLists.txt.user*
+qml_debug.log
+launch.log
+*.log
+
+# MSVC / Compiler outputs
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.a
+*.o
+*.dll
+*.so
+*.dylib
+*.aotstats
+
+# Qt Generated files
+.rcc/
+.qt/
+*_autogen/
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# VS Code / IDEs
+.vscode/
+.vs/
+.idea/
